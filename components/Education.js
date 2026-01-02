@@ -14,7 +14,7 @@ export default function Education() {
       degree: "Bachelor in Statistics",
       start: "Aug 2018",
       end: "Aug 2022",
-      logo: "/education/um.png",
+      logo: "/education/um.PNG",
     },
   ];
 
@@ -31,21 +31,21 @@ export default function Education() {
       issuer: "RevoU",
       year: "Apr 2023",
       logo: "/education/revou.png",
-      file: "/certificates/Full Stack DA.pdf",
+      file: "/certificates/Full-Stack-DA.pdf",
     },
     {
       title: "Product Management Mini Course",
       issuer: "RevoU",
       year: "Sep 2022",
       logo: "/education/revou.png",
-      file: "/certificates/PM mini course.pdf",
+      file: "/certificates/PM-mini-course.pdf",
     },
     {
       title: "Data Analytics Mini Course",
       issuer: "RevoU",
       year: "Jun 2022",
       logo: "/education/revou.png",
-      file: "/certificates/DA mini course.pdf",
+      file: "/certificates/DA-mini-course.pdf",
     },
   ];
 
