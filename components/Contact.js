@@ -5,29 +5,34 @@ export default function Contact() {
     <footer
       className="
         fixed bottom-0 left-0 w-full z-40
-        bg-slate-900/80 backdrop-blur-md
+        bg-slate-900/85 backdrop-blur-md
         border-t border-white/10
       "
     >
       <div
         className="
           max-w-7xl mx-auto
-          px-6 py-2
+          px-4 sm:px-6 py-2
           flex items-center justify-between
-          text-sm text-gray-400
+          text-xs sm:text-sm
+          text-gray-300
         "
       >
         {/* ================= LEFT - CONTACT INFO ================= */}
-        <div className="flex items-center gap-6 flex-nowrap">
+        <div className="flex items-center gap-4 sm:gap-6 flex-nowrap">
 
           {/* EMAIL */}
           <a
             href="mailto:shireenmalika.q@gmail.com"
-            className="flex items-center gap-2 hover:text-accent transition whitespace-nowrap"
+            className="
+              flex items-center gap-2
+              hover:text-accent transition
+              whitespace-nowrap
+            "
           >
             <Mail size={16} className="text-accent shrink-0" />
-            <span className="hidden sm:inline">
-              shireenmalika.q@gmail.com
+            <span>
+              <span className="font-medium">Email</span>
             </span>
           </a>
 
@@ -36,29 +41,29 @@ export default function Contact() {
             href="https://www.linkedin.com/in/shireen-malika/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-accent transition whitespace-nowrap"
+            className="
+              flex items-center gap-2
+              hover:text-accent transition
+              whitespace-nowrap
+            "
           >
             <Linkedin size={16} className="text-accent shrink-0" />
-            <span className="hidden sm:inline">
-              LinkedIn
+            <span>
+              <span className="font-medium">LinkedIn</span>
             </span>
           </a>
 
           {/* LOCATION */}
-          <div className="flex items-center gap-2 flex-nowrap">
+          <div className="flex items-center gap-2 whitespace-nowrap">
             <MapPin size={16} className="text-accent shrink-0" />
-            <span className="hidden sm:inline whitespace-nowrap">
-              South Jakarta
-            </span>
+            <span>South Jakarta</span>
           </div>
         </div>
 
         {/* ================= CENTER - CTA ================= */}
-        <div className="hidden md:block">
-          <span className="text-gray-300 font-medium tracking-wide">
-            Let&apos;s work together —
-            <span className="text-accent ml-1">Contact Me</span>
-          </span>
+        <div className="hidden sm:block text-gray-200 font-medium">
+          Let&apos;s work together —
+          <span className="text-accent ml-1">Contact Me</span>
         </div>
 
         {/* ================= RIGHT - DOWNLOAD CV ================= */}
@@ -67,7 +72,7 @@ export default function Contact() {
           download
           className="
             flex items-center gap-2
-            px-4 py-0.9
+            px-3 sm:px-4 py-1.5
             rounded-full
             border border-accent
             text-accent
@@ -77,7 +82,7 @@ export default function Contact() {
           "
         >
           <Download size={14} />
-          <span className="text-sm font-medium">
+          <span className="font-medium">
             CV
           </span>
         </a>
