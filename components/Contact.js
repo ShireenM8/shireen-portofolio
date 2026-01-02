@@ -51,7 +51,7 @@ export default function Contact() {
 
         {/* RIGHT - DOWNLOAD CV */}
         <a
-          href="/cv.pdf"
+          href="/CV-Shireen-Malika.pdf"
           download
           className="
             flex items-center gap-2

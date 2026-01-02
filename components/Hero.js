@@ -47,7 +47,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/cv.pdf"
+              href="/CV-Shireen-Malika.pdf"
               download
               className="
                 px-6 py-3 rounded-full
@@ -65,7 +65,7 @@ export default function Hero() {
         {/* ================= CENTER – PHOTO ================= */}
         <div className="flex justify-center">
           <img
-            src="/image.jpg"
+            src="/image.JPG"
             alt="Shireen Malika"
             className="
               w-full max-w-md
