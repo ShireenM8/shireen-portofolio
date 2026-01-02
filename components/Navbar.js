@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul
           className="
             flex justify-center
-            gap-8
+            gap-4
             py-4
             text-sm
             overflow-x-auto
