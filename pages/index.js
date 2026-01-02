@@ -1,27 +1,29 @@
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Education from "../components/Education";
 import Contact from "../components/Contact";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Shireen Malika | Data Analyst</title>
-        <meta name="description" content="Data Analyst Portfolio – Shireen Malika" />
-      </Head>
-      <main className="min-h-screen bg-gray-950 text-gray-100 font-sans">
+      <Navbar />
+
+      <main className="pb-28">
         <Hero />
-        <About />
+        <div className="section-divider" />
+
         <Skills />
+        <div className="section-divider" />
+
         <Projects />
-        <Contact />
-        <footer className="px-6 py-10 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} Shireen Malika. All rights reserved.
-        </footer>
+        <div className="section-divider" />
+
+        <Education />
       </main>
+
+      <Contact />
     </>
   );
 }

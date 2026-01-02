@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #e5e7eb;
+  font-family: ui-sans-serif, system-ui, -apple-system;
+}
+
+/* Accent */
+.text-accent {
+  color: #22d3ee;
+}
+
+.bg-accent {
+  background-color: #22d3ee;
+}
+
+.border-accent {
+  border-color: #22d3ee;
+}
+
+/* Divider antar section */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(34, 211, 238, 0.35),
+    transparent
+  );
+  margin: 6rem 0;
+}
