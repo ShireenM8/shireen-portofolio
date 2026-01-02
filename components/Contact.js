@@ -25,7 +25,7 @@ export default function Contact() {
           <a
             href="mailto:shireenmalika.q@gmail.com"
             className="
-              flex items-center gap-2
+              flex items-center gap-1.5
               hover:text-accent transition
               whitespace-nowrap
             "
@@ -42,7 +42,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             className="
-              flex items-center gap-2
+              flex items-center gap-1.5
               hover:text-accent transition
               whitespace-nowrap
             "
@@ -54,14 +54,14 @@ export default function Contact() {
           </a>
 
           {/* LOCATION */}
-          <div className="flex items-center gap-2 whitespace-nowrap">
+          <div className="flex items-center gap-1.5 whitespace-nowrap">
             <MapPin size={16} className="text-accent shrink-0" />
             <span>South Jakarta</span>
           </div>
         </div>
 
         {/* ================= CENTER - CTA ================= */}
-        <div className="hidden sm:block text-gray-200 font-medium">
+        <div className="hidden sm:block absolute left-1/2 transform -translate-x-1/2 text-gray-200 font-medium">
           Let&apos;s work together —
           <span className="text-accent ml-1">Contact Me</span>
         </div>
@@ -72,7 +72,7 @@ export default function Contact() {
           download
           className="
             flex items-center gap-2
-            px-3 sm:px-4 py-1.5
+            px-3 sm:px-4 py-1
             rounded-full
             border border-accent
             text-accent

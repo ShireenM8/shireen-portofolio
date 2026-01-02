@@ -7,13 +7,13 @@ export default function ProjectCard({ title, description, image, link }) {
         <img
           src={image}
           alt={title}
-          className="w-full h-72 object-contain p-4"
+          className="w-full h-72 object-contain p-1"
         />
       </div>
 
       {/* CONTENT */}
-      <div className="px-6 pt-4 pb-5">
-        <h3 className="text-lg font-semibold mb-2">
+      <div className="px-6 pt-2 pb-2.5">
+        <h3 className="text-lg font-semibold mb-1">
           {title}
         </h3>
 

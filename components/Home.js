@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Home() {
   return (
     <section
       id="hero"
@@ -78,11 +78,11 @@ export default function Hero() {
 
         {/* ================= RIGHT – BRANDS ================= */}
         <div className="text-center">
-          <p className="text-xs uppercase tracking-widest text-gray-400 mb-3">
+          <p className="text-xs uppercase tracking-widest text-gray-400 mb-2">
             Brands & Platforms Collaborated
           </p>
 
-          <p className="text-sm text-gray-300 mb-6 leading-relaxed">
+          <p className="text-sm text-gray-300 mb-2 leading-relaxed">
             Collaborated with various brands and platforms to deliver data-driven insights, evaluate campaign performance, and support scalable business growth.
           </p>
 
@@ -121,9 +121,12 @@ export default function Hero() {
       </div>
 
       {/* ================= SCROLL INDICATOR ================= */}
-      <div className="absolute bottom-18 left-1/2 -translate-x-1/2">
-        <div className="w-5 h-8 rounded-full border border-gray-400 flex justify-center">
-          <span className="w-1 h-2 bg-gray-400 rounded-full mt-1 animate-fade" />
+      <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
+        <div className="flex flex-col items-center space-y-2">
+          {/* Panah */}
+          <div className="w-4 h-4 border-l-2 border-r-2 border-t-2 border-transparent border-t-gray-400 animate-bounce"></div>
+          <div className="w-4 h-4 border-l-2 border-r-2 border-t-2 border-transparent border-t-gray-400 animate-bounce delay-150"></div>
+          <div className="w-4 h-4 border-l-2 border-r-2 border-t-2 border-transparent border-t-gray-400 animate-bounce delay-300"></div>
         </div>
       </div>
     </section>
