@@ -11,7 +11,7 @@ export default function Education() {
     },
     {
       institution: "State University of Malang",
-      degree: "Bachelor in Statistics",
+      degree: "Bachelor in Chemistry",
       start: "Aug 2018",
       end: "Aug 2022",
       logo: "/education/um.PNG",
